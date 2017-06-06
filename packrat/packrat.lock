@@ -1,0 +1,26 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.4.0
+Repos: CRAN=https://cran.rstudio.com/,
+    emarsys-drat=http://venice.ett.local/dratrepo/
+
+Package: drat
+Source: CRAN
+Version: 0.1.2
+Hash: cde4f074e360e31893a8f23780ab4353
+
+Package: foofactors
+Source: emarsys-drat
+Version: 0.0.0.9004
+Hash: 1b26f1e1cb6800f73cffaa8f9512e6de
+Requires: drat, magrittr
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
